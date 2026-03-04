@@ -27,7 +27,7 @@ A responsive web application built using HTML, CSS, and JavaScript to efficientl
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ---
 
