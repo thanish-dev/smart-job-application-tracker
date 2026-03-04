@@ -8,7 +8,7 @@ A responsive web application built using HTML, CSS, and JavaScript to efficientl
 
 👉 **[Click Here to View Live Project](https://yourusername.github.io/smart-job-application-tracker/)**
 
-(Replace `yourusername` with your actual GitHub username.)
+
 
 ---
 
