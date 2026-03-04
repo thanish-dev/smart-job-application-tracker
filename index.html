@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Job Application Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Smart Job Application Tracker</h1>
+
+    <form id="jobForm">
+      <input type="text" id="company" placeholder="Company Name" required>
+      <input type="text" id="role" placeholder="Job Role" required>
+      <input type="date" id="date" required>
+
+      <select id="status">
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Rejected">Rejected</option>
+        <option value="Offer">Offer</option>
+      </select>
+
+      <button type="submit">Add Application</button>
+    </form>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search by company...">
+
+      <select id="filterStatus">
+        <option value="All">All</option>
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Rejected">Rejected</option>
+        <option value="Offer">Offer</option>
+      </select>
+    </div>
+
+    <div class="stats">
+      <p>Total: <span id="total">0</span></p>
+      <p>Applied: <span id="appliedCount">0</span></p>
+      <p>Interview: <span id="interviewCount">0</span></p>
+      <p>Rejected: <span id="rejectedCount">0</span></p>
+      <p>Offer: <span id="offerCount">0</span></p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="jobTable"></tbody>
+    </table>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
