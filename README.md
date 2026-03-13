@@ -1,10 +1,10 @@
-# 🚀 Smart Job Application Tracker
+# Smart Job Application Tracker
 
 A responsive web application built using HTML, CSS, and JavaScript to efficiently track and manage job applications.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 👉 **[Click Here to View Live Project](https://thanish-dev.github.io/smart-job-application-tracker/)**
 
@@ -12,7 +12,7 @@ A responsive web application built using HTML, CSS, and JavaScript to efficientl
 
 ---
 
-## ✨ Features
+##  Features
 
 - Add and Delete Job Applications
 - Search by Company Name
@@ -23,7 +23,7 @@ A responsive web application built using HTML, CSS, and JavaScript to efficientl
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3
@@ -31,9 +31,9 @@ A responsive web application built using HTML, CSS, and JavaScript to efficientl
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 📊 Dashboard View
+###  Dashboard View
 ![Dashboard](assets/dashboard.png)
 
 ---
